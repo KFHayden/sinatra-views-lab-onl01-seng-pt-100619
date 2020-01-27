@@ -9,8 +9,8 @@ class App < Sinatra::Base
   end
   
   get '/goodbye' do
-    erb :goodbye
     <%name = "Joe"%>
+    erb :goodbye
   end
   
   get '/date' do
